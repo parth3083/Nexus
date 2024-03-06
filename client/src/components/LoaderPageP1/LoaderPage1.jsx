@@ -12,8 +12,7 @@ import image8 from '/src/images/image-8.jpg'
 import image9 from '/src/images/mage-9.jpg'
 import image6 from '/src/images/image - 4.jpg'
 import { Power2, gsap } from "gsap";
-import { useGSAP } from "@gsap/react";
-    
+import { useGSAP } from "@gsap/react"; 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
@@ -67,8 +66,6 @@ tl.to('.s', {
 },'a')    
 },[])
   
-
-requestAnimationFrame(raf)
   return (
   
 
