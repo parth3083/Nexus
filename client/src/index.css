@@ -12,11 +12,26 @@
     flex-direction: column;
     gap: 2vw;
 }
-
+.page1{
+    width: 100%;
+    height: 100vh;
+}
 .img-div{
     width: 100%;
     height: calc(100%/4);
     border-radius: 10px;
     overflow: hidden;
     background-color: red;
+}
+#r2{
+    margin-top: -5%;
+}
+#r3{
+    margin-top: -8%;
+}
+#r4{
+    margin-top: -12%;
+}
+#r5{
+    margin-top: -15%;
 }

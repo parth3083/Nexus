@@ -6,7 +6,7 @@ const LoaderPage = () => {
     return (
         <div className='main'>
             <Navbar />
-            <LoaderPage1/>
+            <LoaderPage1 />
         </div>
     )
 }
