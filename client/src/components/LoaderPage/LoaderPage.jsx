@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar'
 const LoaderPage = () => {
     return (
         <div className='main'>
-            <Navbar/>
+            <Navbar />
             <LoaderPage1/>
         </div>
     )
