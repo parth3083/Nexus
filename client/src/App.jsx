@@ -1,8 +1,11 @@
 import React from 'react'
+import LoaderPage from './components/LoaderPage/LoaderPage'
 
 function App() {
   return (
-    <div>hey i am aprth and i am a full stack web developer</div>
+    <div >
+        <LoaderPage/>
+    </div>
   )
 }
 
