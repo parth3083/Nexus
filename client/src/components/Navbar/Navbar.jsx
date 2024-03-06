@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../Navbar/navbar.scss'
 function Navbar() {
   return (
-    <nav>
+      <div className='main'>
+              <nav>
     <Link to='/home'>
     <div id="nav-left">
         <h1>Nexus</h1>
@@ -13,6 +15,7 @@ function Navbar() {
         <h3>info@nexus.com</h3>
     </div>
 </nav>
+    </div>
   )
 }
 
