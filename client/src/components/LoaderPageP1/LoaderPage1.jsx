@@ -11,7 +11,6 @@ import image12 from '/src/images/image-13.jpg'
 import image8 from '/src/images/image-8.jpg'
 import image9 from '/src/images/mage-9.jpg'
 import image6 from '/src/images/image - 4.jpg'
-import Lenis from '@studio-freight/lenis'
 import { Power2, gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
     
@@ -20,15 +19,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(useGSAP,ScrollTrigger);
 const LoaderPage1 = () => {
-  const lenis = new Lenis()
 
-lenis.on('scroll', (e) => {
-})
-
-function raf(time) {
-  lenis.raf(time)
-  requestAnimationFrame(raf)
-  };
   useGSAP(() => {
     var tl = gsap.timeline({
       scrollTrigger: {
@@ -156,16 +147,11 @@ requestAnimationFrame(raf)
             <img src={ image12} className=' w-full h-full object-cover'  alt="" />
           </div>
       </div>
-
-
-
-
-
         </div>
           <div className='overlay absolute top-0 w-full h-[100vh] text-9xl flex items-center justify-center bg-transparent text-white font-semibold'>
-            <h1 className=' opacity-0'>Nexus</h1>
+            <h1 className=' opacity-0  select-none'>Nexus</h1>
             <div className='scroll absolute bottom-[8%] flex flex-col items-center justify-center gap-[0.45rem]'>
-              <h3 className='text-[1vw]'>Sroll Down</h3>
+              <h3 className='text-[1vw] select-none'>Sroll Down</h3>
               <div className='sd w-[5vw] h-[2px] bg-[#454545] rounded-md'>
                 <div className='s w-0  h-[2px] bg-white rounded-md'></div>
               </div>

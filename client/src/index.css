@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .row-div{
     width: calc(200vw/5);
     height: 100%;
