@@ -4,7 +4,7 @@ import '../Navbar/navbar.scss'
 function Navbar() {
   return (
       <div className='main'>
-              <nav className='w-full h-[10vh] flex items-center justify-between px-[4vw] py-[2vw] fixed top-0 z-20 text-white mix-blend-difference'>
+              <nav className='w-full h-[10vh] flex items-center justify-between px-[4vw] py-[2vw] fixed top-0 z-20 text-white '>
     <Link to='/home'>
     <div id="nav-left" className=' w-fit  h-[3.25vw] overflow-hidden'>
         <h1>Nexus</h1>
