@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* *::-webkit-scrollbar{
+    display: none;
+} */
 .row-div{
     width: calc(200vw/5);
     height: 100%;
