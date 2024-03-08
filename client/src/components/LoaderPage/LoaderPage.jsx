@@ -4,6 +4,7 @@ import LoaderPage1 from '../LoaderPageP1/LoaderPage1'
 import Navbar from '../Navbar/Navbar'
 import LoaderPageMiddle from '../LoaderPageMiddle/LoaderPageMiddle'
 import Lenis from '@studio-freight/lenis'
+import LoaderPageEnd from '../LoaderPageEnd/LoaderPageEnd'
 const LoaderPage = () => {
     const lenis = new Lenis()
 
@@ -17,10 +18,11 @@ const LoaderPage = () => {
   }
   requestAnimationFrame(raf)
     return (
-        <div className='main'>
-             <Navbar />
+        <div className='main overflow-hidden'>
+              <Navbar />
             <LoaderPage1 /> 
-            <LoaderPageMiddle/>
+            <LoaderPageMiddle/> 
+        <LoaderPageEnd/>
         </div>
     )
 }

@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        loaderend1: ['Marcellus'],
+        loaderbutton:["Oleo Script"]
+      }
+    },
   },
   plugins: [],
 }

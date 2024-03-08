@@ -1,22 +1,10 @@
 import React from 'react'
-import Lenis from '@studio-freight/lenis'
 import { Power2, gsap } from "gsap";
 import { useGSAP } from "@gsap/react"; 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(useGSAP,ScrollTrigger);
 const LoaderPageMiddle = () => {
-    const lenis = new Lenis()
-
-    lenis.on('scroll', (e) => {
-      console.log(e)
-    })
-    
-    function raf(time) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
-  }
-  requestAnimationFrame(raf)
     useGSAP(() => {
       var tl = gsap.timeline({
         scrollTrigger: {
@@ -37,10 +25,9 @@ const LoaderPageMiddle = () => {
         
       });
   },[])
-    requestAnimationFrame(raf)
     return (
         <>
-        <div className='page2 w-full h-[100vh] overflow-hidden flex items-center justify-start bg-white'>
+        <div className='page2 w-full h-[100vh] overflow-hidden flex items-center justify-start bg-green-900'>
           
           <div className='t1 ml-[2vw] absolute'>
             <h1 className='text-[8vw] opacity-20'>See, sort, store:</h1>
