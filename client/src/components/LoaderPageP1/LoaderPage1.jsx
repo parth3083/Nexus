@@ -79,8 +79,6 @@ tl.to('.s', {
   
   return (
   
-
-    <div className='bg-black '>
       <div className='page1'>
     <div className='container-div w-[100%] h-[100vh] flex items-start'>
       <div className='rotate-div -ml-[20vw] relative flex items-center justify-center gap-6 w-[180vw] h-[200vh] bg-black scale-100'>
@@ -168,7 +166,7 @@ tl.to('.s', {
     </div>
   </div> 
 
- </div>
+
 
   )
 }

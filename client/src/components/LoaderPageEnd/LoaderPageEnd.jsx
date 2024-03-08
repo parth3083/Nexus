@@ -1,5 +1,5 @@
 import React from 'react'
-import { Power2, gsap } from "gsap";
+import { Power3, gsap } from "gsap";
 import { useGSAP } from "@gsap/react"; 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link} from 'react-router-dom'
@@ -8,11 +8,13 @@ const LoaderPageEnd = () => {
     useGSAP(() => {
         var tl = gsap.timeline({
             scrollTrigger: {
-                trigger: ".page2",
+                trigger: ".page3",
                 start: "50% 50%",
                 end: "100% 50%",
                 scrub: 1,
                 pin: true,
+                ease: Power3,
+                duration:5
             }
         });
         tl.to('.two', {
@@ -33,7 +35,7 @@ const LoaderPageEnd = () => {
     },[])
     return (
         <>
-            <div className='page2 w-full h-[100vh]   overflow-hidden relative'>
+            <div className='page3 w-full h-[100vh]   overflow-hidden relative'>
                 <div className='one absolute bg-black w-full h-full text-white flex flex-col items-center justify-center gap-[5vw]'>
                     <h1 className='text-8xl font-loaderend1'>Tame the Image Chaos</h1>
                     <Link to='/home'>

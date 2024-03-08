@@ -18,7 +18,7 @@ const LoaderPage = () => {
   }
   requestAnimationFrame(raf)
     return (
-        <div className='main overflow-hidden'>
+        <div className='main overflow-hidden bg-black'>
               <Navbar />
             <LoaderPage1 /> 
             <LoaderPageMiddle/> 

@@ -27,7 +27,7 @@ const LoaderPageMiddle = () => {
   },[])
     return (
         <>
-        <div className='page2 w-full h-[100vh] overflow-hidden flex items-center justify-start bg-green-900'>
+        <div className='page2 w-full h-[100vh] overflow-hidden flex items-center justify-start bg-white'>
           
           <div className='t1 ml-[2vw] absolute'>
             <h1 className='text-[8vw] opacity-20'>See, sort, store:</h1>
