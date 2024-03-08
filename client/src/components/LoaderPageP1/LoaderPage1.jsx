@@ -157,8 +157,8 @@ tl.to('.s', {
           <div className='overlay absolute top-0 w-full h-[100vh] text-9xl flex items-center justify-center bg-transparent text-white font-semibold'>
             <h1 className=' opacity-0  select-none '>Nexus</h1>
             <div className='scroll absolute bottom-[8%] flex flex-col items-center justify-center gap-[0.45rem]'>
-              <h3 className='text-[1vw] select-none'>Sroll Down</h3>
-              <div className='sd w-[5vw] h-[2px] bg-[#454545] rounded-md'>
+              <h3 className='md:text-[1vw] select-none text-[4vw]'>Sroll Down</h3>
+              <div className='sd md:w-[5vw] w-[20vw] h-[2px] bg-[#454545] rounded-md'>
                 <div className='s w-0  h-[2px] bg-white rounded-md'></div>
               </div>
             </div>

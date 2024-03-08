@@ -36,17 +36,17 @@ const LoaderPageEnd = () => {
     return (
         <>
             <div className='page3 w-full h-[100vh]   overflow-hidden relative'>
-                <div className='one absolute bg-purple-300 w-full h-full text-white flex flex-col items-center justify-center gap-[5vw]'>
-                    <h1 className='text-8xl font-loaderend1 text-purple-950'>Tame the Image Chaos</h1>
+                <div className='one absolute bg-purple-300 w-full h-full text-white flex flex-col items-center justify-center gap-[10vw]'>
+                    <h1 className='md:text-8xl text-7xl font-loaderend1 text-purple-950'>Tame the Image Chaos</h1>
                     <Link to='/home'>
                         <button className='px-5 py-3 bg-purple-700 font-loaderbutton rounded-md text-5xl outline-none' >Get Started</button>
                     </Link>
                 </div>
                  <div className='two absolute bg-white w-full h-full top-[50%] flex flex-col overflow-hidden items-center justify-start'>
-                    <h1 className='text-[12vw] font-semibold -mt-[10.5%] text-purple-900 select-none'>Nexus</h1>
+                    <h1 className='md:text-[12vw] text-[28vw] font-semibold md:-mt-[10.5%] -mt-[23.5%] text-purple-900 select-none'>Nexus</h1>
                 </div>
                 <div className='three absolute bg-white w-full h-full bottom-[50%] flex flex-col items-center overflow-hidden justify-end'>
-                    <h1 className='text-[12vw] font-semibold -mb-[7.75%] text-purple-900 select-none'>Nexus</h1>
+                    <h1 className='md:text-[12vw] text-[28vw] font-semibold md:-mb-[7.75%] -mb-[20%] text-purple-900 select-none'>Nexus</h1>
                 </div> 
             </div>
         </>
