@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         loaderend1: ['Marcellus'],
-        loaderbutton:["Oleo Script"]
+        loaderbutton: ["Oleo Script"],
+        mainNavbar:['Anta']
       }
     },
   },

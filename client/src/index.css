@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Oleo+Script:wght@400;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Marcellus&family=Oleo+Script:wght@400;700&family=Satisfy&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +9,8 @@
 /* *::-webkit-scrollbar{
     display: none;
 } */
-
+/* In your Tailwind CSS configuration file */
+  
 .row-div{
     width: calc(200vw/5);
     height: 100%;

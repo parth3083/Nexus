@@ -1,8 +1,16 @@
 import React from 'react'
+import MainNavbar from '../Main Navbar/MainNavbar'
 
 const Home = () => {
     return (
-        <div>Home page and i ma parth and i am a full stack web developer</div>
+        <>
+            <div className='bg-[#2A2828] w-screen h-[100vh] overflow-auto'>
+                <MainNavbar />
+                
+            </div>
+            
+        
+        </>
     )
 }
 
