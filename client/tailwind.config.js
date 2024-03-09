@@ -9,7 +9,8 @@ export default {
       fontFamily: {
         loaderend1: ['Marcellus'],
         loaderbutton: ["Oleo Script"],
-        mainNavbar:['Anta']
+        mainNavbar: ['Anta'],
+        mast:["Bebas Neue"]
       }
     },
   },

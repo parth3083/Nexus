@@ -6,7 +6,6 @@
 .main{
     nav{
         #nav-left h1{
-            font-size: 2.5vw;
             font-weight: 500;
             transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
         }
@@ -14,7 +13,6 @@
             transform: translateY(-100%);
         }
         #nav-right h3{
-            font-size: 1.5vw;
             font-weight: 400;
             letter-spacing: 0.2vw;
             transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
