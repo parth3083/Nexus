@@ -39,14 +39,14 @@ const LoaderPageEnd = () => {
                 <div className='one absolute bg-[#2A2828] w-full h-full text-white flex flex-col items-center justify-center gap-[10vw]'>
                     <h1 className='md:text-8xl text-7xl font-loaderend1 text-zinc-400'>Tame the Image Chaos</h1>
                     <Link to='/home'>
-                        <button className='px-5 py-3 bg-purple-500 font-loaderbutton rounded-md text-5xl outline-none' >Get Started</button>
+                        <button className='px-5 py-3 bg-purple-500 font-loaderbutton rounded-md text-5xl outline-none select-none' >Get Started</button>
                     </Link>
                 </div>
                  <div className='two absolute bg-white w-full h-full top-[50%] flex flex-col overflow-hidden items-center justify-start'>
                     <h1 className='md:text-[12vw] text-[28vw] font-semibold md:-mt-[10.5%] -mt-[23.5%] text-[#2A2828] select-none'>Nexus</h1>
                 </div>
                 <div className='three absolute bg-white w-full h-full bottom-[50%] flex flex-col items-center overflow-hidden justify-end'>
-                    <h1 className='md:text-[12vw] text-[28vw] font-semibold md:-mb-[7.75%] -mb-[20%] text-[#2A2828] select-none'>Nexus</h1>
+                    <h1 className='md:text-[12vw] text-[28vw] font-semibold md:-mb-[7.65%] -mb-[20%] text-[#2A2828] select-none'>Nexus</h1>
                 </div> 
             </div>
         </>
