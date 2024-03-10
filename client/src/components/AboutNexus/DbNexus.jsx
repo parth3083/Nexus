@@ -3,6 +3,7 @@ import image1 from '/src/images/an-4.jpg'
 import { Power2, gsap } from "gsap";
 import { useGSAP } from "@gsap/react"; 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Tilt } from '@jdion/tilt-react'
 gsap.registerPlugin(useGSAP,ScrollTrigger);
 function DbNexus() {
     useGSAP(() => {
@@ -21,9 +22,9 @@ function DbNexus() {
   return (
     <div className='one w-full h-[100vh] md:flex-row flex-col-reverse flex items-center justify-between py-5 px-[3.75vw]'>
             <div className="nleft w-full md:w-[43%] h-full p-10 ">
-            <div className='img-cont w-full rounded-lg overflow-hidden h-full '>
+            <Tilt className='img-cont w-full rounded-lg overflow-hidden h-full '>
                         <img src={image1} className='w-full h-full object-cover object-right' alt="" />
-                    </div>
+                    </Tilt>
             </div>
             <div className="nright-1 w-full md:w-[55%] h-full pt-5  flex flex-col md:items-end items-center justify-start md:justify-start">
                 <h1 className='md:text-[13vw] text-[33vw] -mt-[20vw] md:-mt-[3.5vw] font-mast font-bold tracking-tight'>DATABASE</h1>

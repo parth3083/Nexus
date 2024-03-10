@@ -3,6 +3,7 @@ import image1 from '/src/images/an-3.jpg'
 import { Power2, gsap } from "gsap";
 import { useGSAP } from "@gsap/react"; 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Tilt } from '@jdion/tilt-react'
 gsap.registerPlugin(useGSAP,ScrollTrigger);
 function BackendNexus() {
     useGSAP(() => {
@@ -29,9 +30,9 @@ function BackendNexus() {
                     <span className='w-fit mb-[0.5vw] overflow-hidden  inline-block '><h3 className=' font-loaderend1 text-[2.5vw]  md:text-[1.3vw] translate-y-[100%]'>features for handling web requests and responses.</h3></span>
                 </div>
                 <div className='one-right-1 w-full md:w-[43%] h-full  p-10'>
-                    <div className='img-cont w-full rounded-lg overflow-hidden md:h-[80%] h-full '>
+                    <Tilt className='img-cont w-full rounded-lg overflow-hidden md:h-[80%] h-full '>
                         <img src={ image1} className='w-full h-full object-contain rounded-lg' alt="" />
-                    </div>
+                    </Tilt>
                 </div>
             </div>
   )

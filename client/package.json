@@ -11,12 +11,15 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.0",
+    "@jdion/tilt-react": "^1.0.0",
     "@studio-freight/lenis": "^1.0.39",
     "gsap": "^3.12.5",
     "react": "^18.2.0",
     "react_scrolltrigger": "^1.0.0",
     "react-dom": "^18.2.0",
+    "react-parallax-tilt": "^1.7.214",
     "react-router-dom": "^6.22.2",
+    "react-tilt": "^1.0.2",
     "sass": "^1.71.1"
   },
   "devDependencies": {

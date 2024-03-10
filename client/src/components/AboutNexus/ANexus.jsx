@@ -3,6 +3,7 @@ import { Power2, gsap } from "gsap";
 import { useGSAP } from "@gsap/react"; 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import image1 from '/src/images/an-1.jpg';
+import { Tilt } from '@jdion/tilt-react'
 gsap.registerPlugin(useGSAP,ScrollTrigger);
 function ANexus() {
     useGSAP(() => {
@@ -24,9 +25,9 @@ function ANexus() {
                     <span className='w-fit mb-[0.5vw] overflow-hidden  inline-block '><h3 className=' font-loaderend1 text-[2.52vw] md:text-[1.3vw] translate-y-[100%]'>collection.</h3></span>
                 </div>
                 <div className='one-right md:w-[43%] w-full -mt-[2vw] md:mt[0] h-full  p-10'>
-                    <div className='img-cont w-full rounded-lg overflow-hidden h-full '>
+                    <Tilt className='img-cont w-full rounded-lg overflow-hidden h-full '>
                         <img src={ image1} className='w-full h-full object-cover' alt="" />
-                    </div>
+                    </Tilt>
                 </div>
             </div>
   )
