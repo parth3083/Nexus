@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from '/src/images/an-6.png'
+import image1 from '/src/images/an-2.png'
 import { Power2, gsap } from "gsap";
 import { useGSAP } from "@gsap/react"; 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -23,9 +23,9 @@ const ReactNexus = () => {
         <div className='one w-full h-[100vh] md:flex-row  flex flex-col-reverse items-center justify-between py-5 px-[3.75vw]'>
             <div className="nleft w-full mt-[5vw] md:mt[0] md:w-[43%] h-full p-10 ">
                 <Tilt
-                    className='img-cont parth w-full transform-style: preserve-3d rounded-lg flex items-center justify-center overflow-hidden h-full ' style={{ backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPmT92WBe7mxKq43iph_0otk1Q-8F_S36JwcPoc33AWg&s)" }}>
+                    className='img-cont parth w-full transform-style: preserve-3d rounded-lg flex items-center justify-center overflow-hidden h-full ' >
                     
-                          <img src={image1} className='pr' style={{ position: 'relative' }}  alt="" />  
+                          <img src={image1} className='w-full h-full object-cover object-right'   alt="" />  
                     </Tilt>
             </div>
             <div className="nright  w-full md:w-[55%] h-full pt-5 items-center justify-start flex flex-col md:items-end md:justify-start">

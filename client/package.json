@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@gsap/react": "^2.1.0",
     "@jdion/tilt-react": "^1.0.0",
     "@studio-freight/lenis": "^1.0.39",
@@ -20,6 +21,7 @@
     "react-parallax-tilt": "^1.7.214",
     "react-router-dom": "^6.22.2",
     "react-tilt": "^1.0.2",
+    "react-toastify": "^10.0.4",
     "sass": "^1.71.1"
   },
   "devDependencies": {
