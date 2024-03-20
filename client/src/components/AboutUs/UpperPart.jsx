@@ -3,6 +3,7 @@ import { Power2, gsap } from "gsap";
 import { useGSAP } from "@gsap/react"; 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import image1 from "/src/images/p.png"
+import image2 from "/src/images/nand.png"
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 function UpperPart() {
@@ -22,9 +23,9 @@ function UpperPart() {
       <div className='w-[91.6%]  ml-[4vw]  h-[80vh]  mt-[2vw] flex items-center justify-between '>
           <div className='vis hidden md:block opacity-0 md:w-[22%] h-full '>
               <div className='w-full h-[70%]  mt-[4.5vw] flex flex-col items-center justify-start '>
-                  <div className='w-[17vw] h-[17vw] bg-white overflow-visible rounded-full mt-[2vw] flex items-center justify-center'>
+                  <div className='w-[15vw] h-[15vw] bg-white overflow-visible rounded-full mt-[2vw] flex items-center justify-center'>
                       <div className='w-[12vw] h-[12vw]  rounded-full relative'>
-                          <img src={image1} className='-mt-[3vw] scale-150   '  alt="" />
+                          <img src={image1} className='-mt-[2vw] scale-125   '  alt="" />
                       </div>
                   </div>
                   <h1 className=' font-loaderend1 text-[2vw]'>Parth Rajput</h1>
@@ -42,12 +43,12 @@ function UpperPart() {
           </div>
           <div className='vis hidden md:block opacity-0 md:w-[22%] h-full '>
           <div className='w-full h-[70%]  mt-[4.5vw] flex flex-col items-center justify-start '>
-                  <div className='w-[17vw] h-[17vw] bg-white overflow-visible rounded-full mt-[2vw] flex items-center justify-center'>
+                  <div className='w-[15vw] h-[15vw] bg-white overflow-visible rounded-full mt-[2vw] flex items-center justify-center'>
                       <div className='w-[12vw] h-[12vw]  rounded-full relative'>
-                          <img src={image1} className='-mt-[3vw] scale-150   '  alt="" />
+                          <img src={image2} className='-mt-[2.3vw] scale-150'  alt="" />
                       </div>
                   </div>
-                  <h1 className=' font-loaderend1 text-[2vw]'>Nand Patel</h1>
+                  <h1 className=' font-loaderend1 -mt-[1vw] z-40 text-[3vw]'>Nand Patel</h1>
               </div>
           </div>
     </div>
