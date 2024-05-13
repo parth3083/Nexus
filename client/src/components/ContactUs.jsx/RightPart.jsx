@@ -19,7 +19,7 @@ const RightPart = () => {
     
         emailjs
           .sendForm('service_l6d24lq', 'template_54utkap', form.current, {
-            publicKey: 'QetpvrmtZYfmddlJ-',
+            publicKey: '9cMEy6IOMkTcic18Z',
           })
           .then(
             () => {

@@ -36,7 +36,6 @@ const LoaderPage1 = () => {
           start: "50% 50%",
           end: "180% 70%",
         scrub: true,
-          pin: true,
       }
   })
   tl.to('.rotate-div', {
