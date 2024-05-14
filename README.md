@@ -82,5 +82,5 @@ pip install dlib
 
 ## License
 
-MIT
+GNU - General Public License
 
