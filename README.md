@@ -4,6 +4,8 @@ Nexus is a comprehensive image search application designed to efficiently locate
 
 Nexus empowers users to swiftly sift through vast image repositories, making it an invaluable tool for various applications such as image management, security, and personal archiving. With its intuitive interface and robust backend processing, Nexus sets a new standard for image search efficiency.
 
+Watch demo at:
+https://youtu.be/LNRnkKzTwlo
 
 ## How it works
 
