@@ -16,7 +16,7 @@ function App() {
         <Route path="/aboutnexus" element={<AboutNexus />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<AboutUs />} />
-        <Route path="/output" element={<Output />} />
+    <Route path="/output" element={<Output />} />
         
       </Routes>
     </div>

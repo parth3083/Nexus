@@ -40,7 +40,7 @@ const Home = () => {
         "http://localhost:3001/upload/multiple",
         multipleFormData
       );
-      alert("Files uploaded successfully!");
+ 
     } catch (error) {
       console.error(error);
       alert("Error uploading files!");
