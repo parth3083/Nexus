@@ -10,7 +10,7 @@ function Output() {
     setLoading(true);
     const fetchImages = async () => {
       try {
-        const res = await axios.get("http://localhost:3001/sorted-images");
+        const res = await axios.get("https://nexus-2-cvj9.onrender.com/sorted-images");
         setdata(res.data);
       } catch (err) {
         console.log(err);

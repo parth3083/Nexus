@@ -35,9 +35,9 @@ const Home = () => {
 
     try {
       // Send separate requests for single and multiple uploads
-      await axios.post("http://localhost:3001/upload/single", singleFormData);
+      await axios.post("https://nexus-2-cvj9.onrender.com/upload/single", singleFormData);
       await axios.post(
-        "http://localhost:3001/upload/multiple",
+        "https://nexus-2-cvj9.onrender.com/upload/multiple",
         multipleFormData
       );
     } catch (error) {
