@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MainNavbar from "../Main Navbar/MainNavbar";
 import axios from "axios"; // Import Axios
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const handleFileInputClick = (inputId) => {
@@ -9,17 +9,17 @@ const Home = () => {
   };
   const handleNameChange = (event) => {
     setName(event.target.value);
-};
+  };
   const [singleFile, setSingleFile] = useState(null);
   const [multipleFiles, setMultipleFiles] = useState([]);
-  const [name, setName] = useState('');
+  const [name, setName] = useState("");
 
   const handleSingleUpload = (event) => {
     setSingleFile(event.target.files[0]);
   };
 
   const handleMultipleUpload = (event) => {
-    setMultipleFiles(Array.from(event.target.files)); 
+    setMultipleFiles(Array.from(event.target.files));
   };
 
   const handleSubmit = async () => {
@@ -40,7 +40,6 @@ const Home = () => {
         "http://localhost:3001/upload/multiple",
         multipleFormData
       );
- 
     } catch (error) {
       console.error(error);
       alert("Error uploading files!");
@@ -60,8 +59,14 @@ const Home = () => {
 
         <div className="input_data w-full mt-6 md:mt-5">
           <div className="md:px-[30vw] px-[20vw]">
-            <input onChange={handleNameChange} type="text" className='w-full h-[6vw] md:h-[2.75vw] mb-2 md:mb-4 pl-4 outline-none border-white border-2 bg-transparent md:rounded-lg rounded-md text-white' placeholder='Enter your name' required />
-                            {/* <input type="email" className='w-full h-[6vw] md:h-[2.75vw] pl-4 outline-none border-white border-2 bg-transparent rounded-lg text-white' placeholder='Enter your email' required />  */}
+            <input
+              onChange={handleNameChange}
+              type="text"
+              className="w-full h-[6vw] md:h-[2.75vw] mb-2 md:mb-4 pl-4 outline-none border-white border-2 bg-transparent md:rounded-lg rounded-md text-white"
+              placeholder="Enter your name"
+              required
+            />
+            {/* <input type="email" className='w-full h-[6vw] md:h-[2.75vw] pl-4 outline-none border-white border-2 bg-transparent rounded-lg text-white' placeholder='Enter your email' required />  */}
           </div>
         </div>
 
@@ -109,9 +114,7 @@ const Home = () => {
             className="bg-purple-500 px-3 py-1 rounded-lg font-loaderbutton text-white text-[5vw] md:text-[2vw]"
             onClick={handleSubmit}
           >
-            <Link to='/output'>
-            Get Sorted
-            </Link>
+            <Link to="/output">Get Sorted</Link>
           </button>
         </div>
       </div>
