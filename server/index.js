@@ -127,6 +127,7 @@ function fetchImages() {
         await image_upload.save();
         console.log(image_upload.Sorted_image_string);
         console.log(image_upload.name);
+        console.log(result)
         uploadcount++;
         // Delete all files in the dataset folder
         if (uploadcount == files.length) {

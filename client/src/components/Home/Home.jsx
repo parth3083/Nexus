@@ -19,7 +19,7 @@ const Home = () => {
   };
 
   const handleMultipleUpload = (event) => {
-    setMultipleFiles(Array.from(event.target.files)); // Convert to array
+    setMultipleFiles(Array.from(event.target.files)); 
   };
 
   const handleSubmit = async () => {
