@@ -34,10 +34,10 @@ const Home = () => {
     multipleFormData.append("name", name);
 
     try {
-      // Send separate requests for single and multiple uploads
-      await axios.post("https://nexus-2-cvj9.onrender.com/upload/single", singleFormData);
+     
+      await axios.post("https://vercel.com/parth3083s-projects/nexus/Djq7ouuydPFeh5gfKDfbKfEdttU9/upload/single", singleFormData);
       await axios.post(
-        "https://nexus-2-cvj9.onrender.com/upload/multiple",
+        "https://vercel.com/parth3083s-projects/nexus/Djq7ouuydPFeh5gfKDfbKfEdttU9/upload/multiple",
         multipleFormData
       );
     } catch (error) {

@@ -2,7 +2,7 @@ const express = require("express");
 const multer = require("multer");
 const cors = require("cors");
 const path = require("path");
-const { spawn } = require("child_process"); // Added for Python execution
+const { spawn } = require("child_process"); 
 const fs = require("fs");
 const mongoose = require("mongoose");
 const { log } = require("console");
@@ -14,13 +14,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// CONSTRUCTED THE PATH FOR THE FOLDER FOR DYNAMIC WORKING 
+
 const knownFolder = path.join(__dirname, "./images/known");
 const datasetFolder = path.join(__dirname, "./images/dataset");
 const sortedImagesFolder = path.join(__dirname, "./images/dataset/folder");
 var username;
 
-// CONNECTING THE MONGODN ATLAS 
+
 mongoose
   .connect(
     "mongodb+srv://parthbrajput30:V9UKzaw1YPy01Jxl@cluster0.rnsee4t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
