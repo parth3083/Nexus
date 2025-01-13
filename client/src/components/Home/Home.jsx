@@ -35,9 +35,9 @@ const Home = () => {
 
     try {
      
-      await axios.post("http://localhost:3001/upload/single", singleFormData);
+      await axios.post("https://nexus-two-ivory.vercel.app/upload/single", singleFormData);
       await axios.post(
-        "http://localhost:3001/upload/multiple",
+        "https://nexus-two-ivory.vercel.app/upload/multiple",
         multipleFormData
       );
     } catch (error) {
