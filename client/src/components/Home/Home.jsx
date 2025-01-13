@@ -35,9 +35,9 @@ const Home = () => {
 
     try {
      
-      await axios.post("https://vercel.com/parth3083s-projects/nexus/Djq7ouuydPFeh5gfKDfbKfEdttU9/upload/single", singleFormData);
+      await axios.post("http://localhost:3001/upload/single", singleFormData);
       await axios.post(
-        "https://vercel.com/parth3083s-projects/nexus/Djq7ouuydPFeh5gfKDfbKfEdttU9/upload/multiple",
+        "http://localhost:3001/upload/multiple",
         multipleFormData
       );
     } catch (error) {

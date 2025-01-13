@@ -10,7 +10,7 @@ function Output() {
     setLoading(true);
     const fetchImages = async () => {
       try {
-        const res = await axios.get("https://vercel.com/parth3083s-projects/nexus/Djq7ouuydPFeh5gfKDfbKfEdttU9/sorted-images");
+        const res = await axios.get("https://localhost:3001/sorted-images");
         setdata(res.data);
       } catch (err) {
         console.log(err);
